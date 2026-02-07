@@ -22,3 +22,22 @@ It embeds the rotation in the exif metadata. It does not re-encode the image.
 4) Run the script 
    1) `python photosphere_straightener.py path/to/img.jpg`
    2) `python photosphere_straightener.py glob:path/to/*.jpg`
+5) Press `j` to look left 90 degrees (or `l` to look right)
+6) Press `z` and/or `c` to align the horizontal red line with the horizon
+7) Press `h` to reset the temporary look rotation
+8) Press `a` and/or `d` to align the horizontal red line with the horizon
+9) Press `h` to reset the temporary look rotation
+10) Press `q` and/or `e` to align the vertical red line with north (or where you want the image to open)
+11) Close the window to save the changes
+
+## Controls
+
+- Left mouse-click and drag to look left and right.
+- `j` and `l` to look left and right 90 degrees.
+- `h` to reset the temporary look rotation.
+- `r` to reset all transforms to 0
+- `z` and `c` to increment and decrement the pitch
+- `a` and `d` to increment and decrement the roll
+- `q` and `e` to increment and decrement the heading
+
+The controls can be configured by editing the script. See line 199+.
