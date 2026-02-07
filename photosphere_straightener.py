@@ -277,7 +277,7 @@ class PhotoSphereViewer:
         glutInit()
         glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH)
         glutInitWindowSize(self.window_width, self.window_height)
-        glutCreateWindow(b"Photosphere Viewer")
+        glutCreateWindow(b"Photosphere Viewer - " + os.path.basename(self.image_path).encode("ascii"))
 
         self.init()
         self.load_texture(self.image_path)
