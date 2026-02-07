@@ -41,3 +41,8 @@ It embeds the rotation in the exif metadata. It does not re-encode the image.
 - `q` and `e` to increment and decrement the heading
 
 The controls can be configured by editing the script. See line 199+.
+
+## Images
+
+![Before](examples/app_before.png)
+![After](examples/app_after.png)
